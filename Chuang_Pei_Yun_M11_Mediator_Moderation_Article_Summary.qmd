@@ -347,5 +347,5 @@ Baron, R. M., & Kenny, D. A. (1986). The moderator–mediator variable distincti
 
 ## Project Links
 
-- [GitHub Repository](PASTE YOUR GITHUB REPOSITORY LINK HERE)
-- [GitHub Pages Website](PASTE YOUR GITHUB PAGES LINK HERE)
+- [GitHub Repository](https://github.com/candicechuang/M11-Mediator-Moderation-Article-Summary)
+- [GitHub Pages Website](https://candicechuang.github.io/M11-Mediator-Moderation-Article-Summary/)
