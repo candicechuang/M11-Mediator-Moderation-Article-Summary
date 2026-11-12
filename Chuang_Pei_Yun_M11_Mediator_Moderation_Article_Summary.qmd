@@ -1,0 +1,351 @@
+---
+title: "Article Reading and Summary: Moderator and Mediator Variables"
+author: "Pei Yun Chuang"
+date: today
+format:
+  html:
+    toc: true
+    number-sections: true
+    embed-resources: true
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+# Introduction
+
+This study note summarizes Baron and Kenny's (1986) article, **"The Moderator–Mediator Variable Distinction in Social Psychological Research: Conceptual, Strategic, and Statistical Considerations."**
+
+The article explains an important distinction between two types of third variables: **moderators** and **mediators**. Although these terms are sometimes used interchangeably, they answer different research questions and require different analytical strategies.
+
+A **moderator** explains **when, for whom, or under what conditions** a relationship changes. A **mediator** explains **how or why** an independent variable influences an outcome.
+
+# Article Information
+
+**Authors:** Reuben M. Baron and David A. Kenny  
+**Year:** 1986  
+**Article:** *The Moderator–Mediator Variable Distinction in Social Psychological Research: Conceptual, Strategic, and Statistical Considerations*  
+**Journal:** *Journal of Personality and Social Psychology*  
+**Volume:** 51  
+**Issue:** 6  
+**Pages:** 1173–1182  
+**DOI:** 10.1037/0022-3514.51.6.1173
+
+# Purpose of the Article
+
+The main purpose of the article is to clarify the conceptual and statistical differences between moderator and mediator variables.
+
+Baron and Kenny emphasize that the two terms should not be used interchangeably. They describe the distinction at conceptual, strategic, and statistical levels and explain how researchers can test each type of effect.
+
+The article also discusses how moderators and mediators can be included in broader causal systems.
+
+# Moderator Variables
+
+## Definition
+
+A moderator is a qualitative or quantitative variable that affects the **direction and/or strength** of the relationship between a predictor variable and an outcome variable.
+
+In simple terms, moderation asks:
+
+> **When, for whom, or under what conditions does X affect Y?**
+
+A moderator changes the relationship between the independent variable and dependent variable.
+
+## Conceptual Model
+
+A basic moderation model contains:
+
+- **X** = predictor or independent variable
+- **Z** = moderator
+- **Y** = outcome or dependent variable
+- **X × Z** = interaction between the predictor and moderator
+
+The important idea is that the effect of X on Y depends on the level or category of Z.
+
+## Regression Model for Moderation
+
+A common regression equation is:
+
+$$
+Y = b_0 + b_1X + b_2Z + b_3XZ + e
+$$
+
+where:
+
+- $b_0$ = intercept
+- $b_1$ = effect of X
+- $b_2$ = effect of the moderator Z
+- $b_3$ = interaction effect
+- $e$ = error
+
+The interaction term, $XZ$, is the key test of moderation.
+
+If the interaction is statistically meaningful, the relationship between X and Y differs depending on Z.
+
+## Example from the Article
+
+Baron and Kenny discuss an example involving life events and illness. The relationship between changing life events and illness severity can differ depending on whether the events are controllable or uncontrollable.
+
+In this case, **controllability** functions as a moderator because it changes the strength of the relationship between life events and illness.
+
+## Types of Moderator Variables
+
+A moderator can be:
+
+- qualitative or categorical,
+- quantitative or continuous,
+- manipulated experimentally, or
+- measured as an individual or situational characteristic.
+
+Therefore, moderation is defined by the variable's **function in the relationship**, not simply by how the variable was measured.
+
+# Testing Moderation
+
+## Categorical Moderator
+
+When the moderator is categorical, researchers can examine whether the relationship between X and Y differs across groups.
+
+For example, if Z contains two groups, the researcher can compare the X–Y relationship between those groups.
+
+## Continuous Moderator
+
+For a continuous moderator, moderation can be tested using an interaction term.
+
+The general procedure is:
+
+1. Include X in the regression.
+2. Include moderator Z.
+3. Create the interaction term X × Z.
+4. Test whether the interaction contributes to explaining Y.
+
+The interaction effect is the main statistical evidence for moderation.
+
+## Important Interpretation
+
+A significant main effect of the moderator is **not enough** to demonstrate moderation.
+
+The central question is whether the effect of X on Y changes as a function of Z. Therefore, the interaction is the key component.
+
+# Mediator Variables
+
+## Definition
+
+A mediator represents the **generative mechanism** through which an independent variable influences a dependent variable.
+
+In simple terms, mediation asks:
+
+> **How or why does X affect Y?**
+
+A mediator is positioned conceptually between the predictor and the outcome.
+
+## Conceptual Model
+
+The basic mediation model is:
+
+$$
+X \rightarrow M \rightarrow Y
+$$
+
+where:
+
+- **X** = independent variable
+- **M** = mediator
+- **Y** = dependent variable
+
+The mediator helps explain the process connecting X to Y.
+
+## Mediation Paths
+
+The mediation model is commonly represented using several paths:
+
+- **Path a:** X → M
+- **Path b:** M → Y while controlling for X
+- **Path c:** total relationship between X and Y
+- **Path c′:** direct relationship between X and Y after controlling for M
+
+The indirect effect is represented conceptually by:
+
+$$
+ab
+$$
+
+The total effect can be represented as:
+
+$$
+c = c' + ab
+$$
+
+# Baron and Kenny's Mediation Procedure
+
+The classic Baron and Kenny approach evaluates a sequence of regression relationships.
+
+## Step 1: Establish the X–Y Relationship
+
+First, examine whether the independent variable predicts the dependent variable.
+
+$$
+Y = b_0 + cX + e
+$$
+
+This establishes the total relationship to be explained.
+
+## Step 2: Establish the X–M Relationship
+
+Next, test whether the independent variable predicts the proposed mediator.
+
+$$
+M = b_0 + aX + e
+$$
+
+The proposed causal variable should be related to the mediator.
+
+## Step 3: Predict Y from X and M
+
+Next, include both X and M as predictors of Y.
+
+$$
+Y = b_0 + c'X + bM + e
+$$
+
+The mediator should be related to Y while X is controlled.
+
+## Step 4: Compare the Effect of X
+
+Compare the effect of X before and after M is included.
+
+If the effect of X becomes smaller after including M, the results are consistent with mediation.
+
+Historically, Baron and Kenny distinguished between:
+
+- **Complete mediation:** the direct X → Y effect is reduced to approximately zero after M is controlled.
+- **Partial mediation:** the X → Y effect becomes smaller but remains present after M is controlled.
+
+The main idea is that the mediator accounts for some or all of the relationship between X and Y.
+
+# Moderator vs. Mediator
+
+| Feature | Moderator | Mediator |
+|---|---|---|
+| Main question | When or for whom does X affect Y? | How or why does X affect Y? |
+| Role | Changes the strength or direction of X → Y | Explains the process connecting X → Y |
+| Key statistical idea | Interaction | Indirect pathway |
+| Basic form | X × Z → Y | X → M → Y |
+| Main focus | Conditions or boundaries of an effect | Mechanism of an effect |
+| Typical regression evidence | Significant interaction term | Changes across mediation paths |
+
+The most important distinction is that a moderator describes **variation in an effect**, while a mediator describes a **mechanism that produces an effect**.
+
+# Strategic Differences
+
+Baron and Kenny explain that moderator and mediator hypotheses lead to different research strategies.
+
+A moderator is especially important when researchers expect an effect to differ across people, situations, or levels of another variable.
+
+A mediator is especially important when researchers want to explain the psychological or behavioral process responsible for an observed relationship.
+
+Therefore, deciding whether a variable is expected to be a moderator or mediator should be based on theory before choosing the statistical analysis.
+
+# Moderators and Mediators in the Same Research System
+
+Moderation and mediation are not mutually exclusive ideas.
+
+A broader causal system can contain both. For example, a variable may explain **how** an effect occurs, while another variable determines **when** that mediated process is stronger or weaker.
+
+The article encourages researchers to think carefully about the theoretical role played by each variable rather than applying labels only after examining statistical results.
+
+# Important Statistical Lessons
+
+## Interaction Is Central to Moderation
+
+The presence of a relationship between Z and Y does not by itself establish moderation.
+
+Moderation concerns whether the X–Y relationship changes depending on Z. Therefore, researchers need to evaluate the interaction between X and Z.
+
+## Mediation Is About a Process
+
+Mediation is not simply a statistical association among three variables. The proposed mediator should make theoretical sense as a mechanism connecting X and Y.
+
+## Temporal and Causal Reasoning Matters
+
+Statistical regression alone cannot automatically prove causality.
+
+The proposed causal order should be supported by theory, research design, and the timing or manipulation of variables.
+
+## Theory Should Guide the Model
+
+Researchers should decide whether a variable is expected to function as a moderator or mediator based on theoretical reasoning.
+
+Statistical analysis should test that theoretical role rather than define the role by itself.
+
+# Example for Marketing Research
+
+The distinction can be applied to digital marketing research.
+
+Suppose a researcher studies whether **website information quality (X)** affects **consultation intention (Y)**.
+
+## Possible Mediation
+
+A researcher might propose:
+
+$$
+Information\ Quality \rightarrow Trust \rightarrow Consultation\ Intention
+$$
+
+Here, **trust** is a mediator because it explains how higher-quality information may increase consultation intention.
+
+The research question is:
+
+> Why does information quality increase consultation intention?
+
+## Possible Moderation
+
+A researcher might instead propose that the effect of information quality differs depending on a consumer characteristic such as prior experience.
+
+The model would be:
+
+$$
+Information\ Quality \times Prior\ Experience \rightarrow Consultation\ Intention
+$$
+
+Here, prior experience is a moderator.
+
+The research question is:
+
+> Under what conditions is information quality more strongly related to consultation intention?
+
+This example shows why moderator and mediator variables answer fundamentally different research questions.
+
+# Key Takeaways for Future Reference
+
+1. Moderator and mediator are not interchangeable concepts.
+2. A moderator changes the strength or direction of a predictor–outcome relationship.
+3. A mediator explains how or why a predictor affects an outcome.
+4. Moderation is commonly tested through an interaction term.
+5. Mediation involves examining relationships among X, M, and Y.
+6. Baron and Kenny's classic mediation approach evaluates the predictor–outcome relationship, predictor–mediator relationship, and the outcome model containing both predictor and mediator.
+7. A reduced direct effect after including the mediator is consistent with mediation.
+8. Moderator and mediator variables can appear in the same broader causal system.
+9. Statistical evidence should be interpreted together with theory and research design.
+10. The distinction is useful in marketing because researchers often need to understand both **why an effect occurs** and **when the effect becomes stronger or weaker**.
+
+# Personal Learning Summary
+
+The most important lesson from this article is that moderator and mediator variables serve different purposes.
+
+Before reading the article, it could be easy to view both as simply third variables added to a model. However, their conceptual roles are different. A moderator identifies conditions that change an effect, while a mediator explains the mechanism behind an effect.
+
+For future research, I should first identify the theoretical question. If I want to understand **when or for whom** an effect changes, I should consider moderation. If I want to understand **how or why** an effect occurs, I should consider mediation.
+
+This distinction will help me develop clearer hypotheses, choose appropriate statistical analyses, and interpret marketing research results more accurately.
+
+# Reference
+
+Baron, R. M., & Kenny, D. A. (1986). The moderator–mediator variable distinction in social psychological research: Conceptual, strategic, and statistical considerations. *Journal of Personality and Social Psychology, 51*(6), 1173–1182. https://doi.org/10.1037/0022-3514.51.6.1173
+
+# Appendix
+
+## Project Links
+
+- [GitHub Repository](PASTE YOUR GITHUB REPOSITORY LINK HERE)
+- [GitHub Pages Website](PASTE YOUR GITHUB PAGES LINK HERE)
